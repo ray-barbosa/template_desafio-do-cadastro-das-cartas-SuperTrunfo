@@ -1,0 +1,36 @@
+# Executáveis compilados
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Diretórios de build
+build/
+dist/
+bin/
+
+# IDEs
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Dependências
+*.dep
+
+# Executável gerado pela tarefa (baseado em tasks.json)
+**/${fileBasenameNoExtension}
